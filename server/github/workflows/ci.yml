@@ -22,6 +22,7 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+  
 
       - name: Build ${{ matrix.service }}
         working-directory: ./${{ matrix.service }}
